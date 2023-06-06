@@ -187,7 +187,7 @@ body{
 
 /* ============<!-- HERO -->====== */
 .hero{
-    /*background-color: var(--brand-color);*/
+    
     padding-top: 188px;
     padding-bottom: 188px;
     padding-left: 0;
@@ -337,65 +337,31 @@ border-radius: 0px 0px 4px 4px;
     fill: var(--light-bg);   
 
 }
-/*
-    background-size: 16px;
-    background-repeat: no-repeat;
-    background-position: center;
-    */
 
-.s-m-instagram{
-    background-image: url(../images/instagram\ 2.svg);
-}
-.s-m-twitter{
-    background-image: url(../images/twitter\ 1.svg);
-}
-.s-m-facebook{
-    background-image: url(../images/facebook\ 1.svg);
-}
-.s-m-linkedin{
-    background-image: url(../images/linkedin\ 1.svg);    
-}
 
 /* ============<!-- /S-M-LINKS-->====== */
 
 /* ============<!-- CUSTOMERS -->====== */
 .customer-flex-container{
     display: flex;
-    justify-content: space-between;
+    gap: 24px;
 }
 .customer-flex-element{
     /* flex-basis: calc((100%-30px-5*24px)/6); */
     width: 168px;
-    margin-bottom: 0;
-    
-    display: block;
-    content: "";    
+    margin-bottom: 0;      
     height: 88px;
-    background-size: 104px;
+
+.customer-link{
+    
+}    
     background-repeat: no-repeat;
     background-position: center;
     background-color: var(--body-color);
     border: 1px solid #8E8F99;
     border-radius: 4px;
 }
-.ya-co{
-    background-image: url(../images/Logo.svg);
-}
-.tagline-here{
-    background-image: url(../images/Logo-1.svg);
-}
-.company{
-    background-image: url(../images/Logo-2.svg);
-}
-.foster{
-    background-image: url(../images/Logo-3.svg);
-}
-.brand{
-    background-image: url(../images/Logo-4.svg);
-}
-.com-tag-line{
-    background-image: url(../images/Logo-5.svg);
-}
+
 /* ============<!-- /CUSTOMERS-->====== */
 
 
