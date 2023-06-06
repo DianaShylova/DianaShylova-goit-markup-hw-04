@@ -187,7 +187,7 @@ body{
 
 /* ============<!-- HERO -->====== */
 .hero{
-    background-color: var(--brand-color);
+    /*background-color: var(--brand-color);*/
     padding-top: 188px;
     padding-bottom: 188px;
     padding-left: 0;
@@ -252,29 +252,19 @@ body{
 /* ============<!-- /HERO -->====== */
 
 /* ============<!-- PRIORITIES -->====== */
-/*
-.priorities::before{    
-    display: block;
-    content: "";
-    width: 264px;
-    height: 112px;
-    margin-bottom: 8px;
-    background-size: 64px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: var(--light-bg);
-   
-}*/
 
-.clock::before{
-    background-image: url(../images/clock\ 1.svg);   
+.priority-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: var(--light-bg);
+    border-radius: 4px;
+    margin-bottom: 8px;
 }
-.diagram::before{
-    background-image: url(../images/diagram\ 1.svg);
-}
-.astronaut::before{
-    background-image: url(../images/astronaut\ 1.svg);
-}
+
+
+
 /* ============<!-- /PRIORITIES -->====== */
 
 
@@ -318,20 +308,41 @@ border-radius: 0px 0px 4px 4px;
 /* ============<!-- S-M-LINKS -->====== */
 .social-media{
     display: flex;
-    justify-content: space-between;
-    margin-top: 8px;
+    justify-content: center;
+    gap: 24px;
+   
     
 }
-.s-m-link{
-    display: inline-block;
+.s-m-item{    
     height: 40px;
-    width: 40px;    
+    width: 40px; 
+}   
+
+.s-m-link{
+    width:100%;
+    height: 100%;
     background-color: var(--brand-bright-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.s-m-link:hover,
+.s-m-link:focus{
+    background-color: var(--focus-btn-color);
+} 
+
+.s-m-logo-fill{
+    fill: var(--light-bg);   
+
+}
+/*
     background-size: 16px;
     background-repeat: no-repeat;
     background-position: center;
-    border-radius: 50%;
-}
+    */
+
 .s-m-instagram{
     background-image: url(../images/instagram\ 2.svg);
 }
