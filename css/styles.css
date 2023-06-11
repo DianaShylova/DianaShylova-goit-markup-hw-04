@@ -372,7 +372,7 @@ border-radius: 0px 0px 4px 4px;
     color: var(--focus-btn-color);
 }
 .customer-logo-color{
-    fill: #8e8f99;
+    fill: currentColor;
 } 
 .customer-logo-color:hover,
 .customer-logo-color:focus{
